@@ -77,3 +77,12 @@ switch (ghost) {
 function eatDot() {
   console.log("Munch!");
 }
+
+//pacman-return
+function addScore(currentScore, eaten) {
+  switch (eaten) {
+    case 'dot':
+    scoreToAdd = 10;
+    break;
+  }
+}
