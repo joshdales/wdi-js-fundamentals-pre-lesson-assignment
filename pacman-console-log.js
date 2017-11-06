@@ -82,7 +82,10 @@ function eatDot() {
 function addScore(currentScore, eaten) {
   switch (eaten) {
     case 'dot':
-    scoreToAdd = 10;
-    break;
+      scoreToAdd = 10;
+      break;
+    case 'powerPellet':
+      scoreToAdd = 50;
+      break;
   }
 }
