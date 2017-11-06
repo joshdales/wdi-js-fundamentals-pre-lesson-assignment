@@ -26,3 +26,10 @@ console.log(ghosts['blinky']); // => 'Red'
 
 var ghostName = 'clyde';
 console.log(ghosts[ghostName]); // => 'Orange'
+
+// pacman-for-loop
+var ghosts = ['Inky', 'Blinky', 'Pinky', 'Clyde'];
+
+for (var index = 0; index < ghosts.length; index++) {
+  console.log('Pac-man eats ' + ghosts[index]);
+}
