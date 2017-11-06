@@ -53,3 +53,7 @@ while (true) {
 }
 
 console.log('Pac-Man returns home after a long day in the maze.')
+
+// pacman-switch
+var ghost = 'Blinky';
+var colour;
