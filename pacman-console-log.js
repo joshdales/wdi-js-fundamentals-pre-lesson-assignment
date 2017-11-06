@@ -90,5 +90,9 @@ function addScore(currentScore, eaten) {
     case 'firstGhost':
       scoreToAdd = 200;
       break;
+    case 'secondGhost':
+      scoreToAdd = 400;
+      break;
   }
+  
 }
