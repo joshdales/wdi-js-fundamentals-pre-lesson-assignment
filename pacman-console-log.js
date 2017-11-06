@@ -68,4 +68,7 @@ switch (ghost) {
   case 'Pinky':
     colour = 'Pink';
     break;
+  case 'Clyde':
+    colour = 'Orange';
+    break;
 }
