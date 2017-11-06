@@ -94,5 +94,5 @@ function addScore(currentScore, eaten) {
       scoreToAdd = 400;
       break;
   }
-  
+  return currentScore + scoreToAdd;
 }
