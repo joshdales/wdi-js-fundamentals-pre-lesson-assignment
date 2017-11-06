@@ -72,3 +72,8 @@ switch (ghost) {
     colour = 'Orange';
     break;
 }
+
+// Named function
+function eatDot() {
+  console.log("Munch!");
+}
