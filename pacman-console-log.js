@@ -7,3 +7,8 @@ console.log(ghosts[0]);
 console.log(ghosts[1]);
 console.log(ghosts[2]);
 console.log(ghosts[3]);
+
+var inky = {};
+inky.colour = 'Cyan';
+inky.personality = 'Shadow';
+console.log(inky);
