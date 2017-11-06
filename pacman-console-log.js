@@ -62,4 +62,7 @@ switch (ghost) {
   case 'Inky':
     colour = 'Cyan';
     break;
+  case 'Blinky':
+    colour = 'Red';
+    break;
 }
