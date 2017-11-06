@@ -65,4 +65,7 @@ switch (ghost) {
   case 'Blinky':
     colour = 'Red';
     break;
+  case 'Pinky':
+    colour = 'Pink';
+    break;
 }
