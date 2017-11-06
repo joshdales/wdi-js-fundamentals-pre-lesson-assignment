@@ -23,3 +23,6 @@ console.log(ghosts.blinky); // => 'Red'
 
 console.log(ghosts['inky']); // => 'Cyan'
 console.log(ghosts['blinky']); // => 'Red'
+
+var ghostName = 'clyde';
+console.log(ghosts[ghostName]); // => 'Orange'
