@@ -33,3 +33,16 @@ var ghosts = ['Inky', 'Blinky', 'Pinky', 'Clyde'];
 for (var index = 0; index < ghosts.length; index++) {
   console.log('Pac-man eats ' + ghosts[index]);
 }
+
+// pacman-if-else
+var powerPelletEaten = false;
+var ghosts = 4;
+
+while (true) {
+  console.log('Ghosts remaining: ' + ghosts);
+
+  if (powerPelletEaten == false) {
+    console.log('Pac-Man eats the power pellet.');
+    powerPelletEaten = true;
+  } 
+}
