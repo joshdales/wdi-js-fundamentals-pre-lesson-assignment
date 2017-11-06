@@ -57,3 +57,9 @@ console.log('Pac-Man returns home after a long day in the maze.')
 // pacman-switch
 var ghost = 'Blinky';
 var colour;
+
+switch (ghost) {
+  case 'Inky':
+    colour = 'Cyan';
+    break;
+}
