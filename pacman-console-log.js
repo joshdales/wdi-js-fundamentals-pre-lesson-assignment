@@ -87,5 +87,8 @@ function addScore(currentScore, eaten) {
     case 'powerPellet':
       scoreToAdd = 50;
       break;
+    case 'firstGhost':
+      scoreToAdd = 200;
+      break;
   }
 }
